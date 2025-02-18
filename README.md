@@ -47,3 +47,12 @@ npm run dev
 You can access the live API documentation hosted on Postman to explore and interact with the endpoints.
 
 [View API Documentation](https://documenter.getpostman.com/view/30811221/2sAYXFjJ74)
+
+## Technologies Used
+This project is built using the following technologies:
+
+- Node.js
+- Express.js
+- MongoDB
+- AWS S3 
+- Postman 
