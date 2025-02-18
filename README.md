@@ -9,10 +9,41 @@ To configure the backend environment variables, create a `.env` file in the root
 ```plaintext
 # .env 
 
-PORT="" 				# Provide a value for PORT
-MONGO_URI="" 				# Provide a value for MONGO_URI
-AWS_ACCESS_KEY_ID="" 				# Provide a value for AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY="" 				# Provide a value for AWS_SECRET_ACCESS_KEY
+PORT="" 				    # Provide a value for PORT
+MONGO_URI="" 			    # Provide a value for MONGO_URI
+AWS_ACCESS_KEY_ID="" 	    # Provide a value for AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY="" 	# Provide a value for AWS_SECRET_ACCESS_KEY
 AWS_REGION="" 				# Provide a value for AWS_REGION
-AWS_S3_BUCKET="" 				# Provide a value for AWS_S3_BUCKET
+AWS_S3_BUCKET="" 			# Provide a value for AWS_S3_BUCKET
 ```
+
+## How to Run
+
+Follow these steps to run the application locally:
+
+### 1. Clone the repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone git@github.com:Aastik243/exclusiveTV.git
+```
+
+### 2. Navigate to project
+
+Navigate to project and install the dependecies.
+```bash
+cd exclusiveTV
+npm install
+```
+
+### 3. Start the server
+
+```bash
+npm run dev
+```
+
+## API Documentation
+You can access the live API documentation hosted on Postman to explore and interact with the endpoints.
+
+[View API Documentation](https://documenter.getpostman.com/view/30811221/2sAYXFjJ74)
